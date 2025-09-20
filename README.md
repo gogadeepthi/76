@@ -1,2 +1,6 @@
-# 76
-JS program 6
+let result="";
+
+for(let i=1; i<=15;i++){
+    result += i + " ";
+}
+document.getElementById("numbers").innerText=result;
